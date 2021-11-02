@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  background-color: #333;
+  display: grid;
+  justify-content: center;
+}
+header .ul-list {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 1.2rem;
+}
+header .ul-list a {
+  color: #ffffffaa;
+  text-decoration: none;
+}
+header .ul-list a:hover {
+  color: #ffffffff;
+}
+main .first-paragraph {
+  background-color: #f5f5f7;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+main .first-paragraph a {
+  text-decoration: none;
+  color: rgb(95, 173, 173);
+}
+main .iphone-13-pro {
+  background-image: url(/assets/iphone13pro.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+main .iphone-13-pro h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+main .iphone-13-pro ul {
+  list-style: none;
+}
+main .iphone-13-pro ul a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: rgb(70, 103, 200);
+}
+main .iphone-13-pro ul a:hover {
+  text-decoration: underline;
+}
+.iphone-13-pro-wrapper-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: unset;
+  color: unset;
+  z-index: 1;
+}
+main .iphone-13 {
+  background-image: url(/assets/iphone-13-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+  text-align: center;
+  padding: 4rem;
+  position: relative;
+}
+main .iphone-13 h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+main .iphone-13 ul {
+  list-style: none;
+}
+main .iphone-13 ul a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: rgb(70, 103, 200);
+}
+main .macbook-pro {
+  background-image: url(/assets/macbook-pro-3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+  text-align: center;
+  padding: 4rem;
+  position: relative;
+}
+main .macbook-pro h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+main .macbook-pro ul {
+  list-style: none;
+}
+main .macbook-pro ul a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: rgb(70, 103, 200);
+}
+.container {
+  display: grid;
+  grid-area: container;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fbfbfd;
+  color: #1d1d1f;
+}
+main .airpods {
+  background-image: url(/assets/air-pods-new.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: grid;
+
+  text-align: left;
+  padding: 7rem 1rem;
+  position: relative;
+}
+main .airpods h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+main .airpods ul {
+  list-style: none;
+  font-family: sans-serif;
+}
+main .airpods ul a {
+  font-size: 1rem;
+  text-decoration: none;
+
+  color: rgb(70, 103, 200);
+}
+main .new-watch-series {
+  background-image: url(/assets/new-watch-series-7.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: grid;
+
+  text-align: left;
+  padding: 7rem;
+  position: relative;
+}
+main .new-watch-series h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  text-align: right;
+}
+
+main .new-watch-series ul {
+  list-style: none;
+}
+main .new-watch-series ul a {
+  font-size: 1rem;
+  text-decoration: none;
+
+  color: rgb(70, 103, 200);
+}
+main .homepod-mini {
+  background-image: url(/assets/HomePod-Mini.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: grid;
+
+  text-align: left;
+  padding: 2rem;
+  position: relative;
+}
+main .homepod-mini h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  text-align: left;
+}
+
+main .homepod-mini ul {
+  list-style: none;
+}
+main .homepod-mini ul a {
+  font-size: 1rem;
+  text-decoration: none;
+
+  color: rgb(70, 103, 200);
+}
+
+main .arcade {
+  background-image: url(/assets/HomePod-Mini.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: grid;
+
+  text-align: left;
+  padding: 2rem;
+  position: relative;
+}
+main .arcade h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  text-align: left;
+}
+
+main .arcade ul {
+  list-style: none;
+}
+main .arcade ul a {
+  font-size: 1rem;
+  text-decoration: none;
+
+  color: rgb(70, 103, 200);
+}
+main .ipad-mini {
+  background-image: url(/assets/ipad-new.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: grid;
+
+  text-align: left;
+  padding: 2rem;
+  position: relative;
+}
+main .ipad-mini h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  text-align: left;
+}
+
+main .ipad-mini ul {
+  list-style: none;
+}
+main .ipad-mini ul a {
+  font-size: 1rem;
+  text-decoration: none;
+
+  color: rgb(70, 103, 200);
+}
+
+main .card {
+  background-image: url(/assets/apple-card.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: grid;
+
+  text-align: left;
+  padding: 2rem;
+  position: relative;
+}
+main .card h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  text-align: left;
+}
+
+main .card ul {
+  list-style: none;
+}
+main .card ul a {
+  font-size: 1rem;
+  text-decoration: none;
+
+  color: rgb(70, 103, 200);
+}
+
+footer {
+  display: grid;
+  grid-template-columns: minmax(400px, 1000px);
+
+  background-color: #f5f5f7;
+  justify-content: center;
+}
+.footer-paragraph {
+  display: grid;
+  grid-template-rows: 1fr;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem 8rem;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: #000a00cb;
+}
+.links {
+  display: grid;
+  grid-template-columns: repeat (5, 1fr);
+  gap: 10px;
+  margin: 1.5rem 0;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.links ul {
+  list-style: none;
+  padding: 5px 0;
+}
+.links li {
+  padding: 5px 0;
+}
+.footer-info {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  padding: 10px 40px;
+}
+.footer-terms {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  padding: 10px 40px;
+  margin: 10px;
+}
